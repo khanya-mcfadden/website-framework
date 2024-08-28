@@ -2,13 +2,9 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/Home')
 def index():
     return render_template('index.html')
-
-@app.route('/Home')
-def Home():
-    return render_template('HomePage.html')
 
 @app.route('/contact')
 def Contact():
