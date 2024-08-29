@@ -1,25 +1,32 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home page </title>
+    <title>coffee shop home page</title>
 </head>
-<body>
-    <nav class="topnav">
-        <a class="active" href="/">Home page</a>
-        <a href="/ordering">ordering a coffee</a>
-        <a href="/Booking">booking a seat</a>
-        <a href="/contact">About us</a>
-    </nav>
-    <div class="footer">
-        <footer>
-            <h4>Contact Us</h4>
-            <hr>
-            <!-- Only user email address added -->
-            <label>Email: Bean&BrewContant@gmail.com </label>
-            <a href="mailto:Bean&BrewContant@gmail.com"></a><br>
-        </footer>
-    </div>
+
+{% extends "Base.html" %}
+
+{% block title %}Home Page{% endblock %}
+
+{% block content %}
+<div>
+    <h1>Welcome to the About us Page</h1>
+    <p>This is the content of the about us page.</p>
+</div>
+{% endblock %}
+
+  
+
+
+    
+    
+
+
+    
+    
+    
 </body>
 </html>

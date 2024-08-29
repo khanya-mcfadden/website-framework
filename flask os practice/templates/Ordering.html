@@ -1,44 +1,92 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>coffee shop home page</title>
-</head>
-
 {% extends "Base.html" %}
 
-{% block title %}Home Page{% endblock %}
+{% block title %}Ordering Page{% endblock %}
 
 {% block content %}
-<div>
-    <h1>Welcome to the ordering Page</h1>
+<div class="content">
+    <h1>Welcome to the Ordering Page</h1>
     <p>This is the content of the order page.</p>
+    
+    <!-- Menu Section -->
+    <div>
+        <h2 class="section-title">Coffees</h2>
+        <div class="menu-section">
+            <div class="menu-item">
+                <img src="path/to/americano_flatwhite.jpg" alt="Americano / Flat White">
+                <p>AMERICANO / FLAT WHITE</p>
+            </div>
+            <div class="menu-item">
+                <img src="path/to/lattes.jpg" alt="Lattes">
+                <p>LATTES</p>
+            </div>
+            <div class="menu-item">
+                <img src="path/to/espressos.jpg" alt="Espressos">
+                <p>ESPRESSOS</p>
+            </div>
+            <div class="menu-item">
+                <img src="path/to/capachinos.jpg" alt="Capachinos">
+                <p>CAPACHINOS</p>
+            </div>
+        </div>
+
+        <div class="weekly-top">
+            <h3>Weekly Top Drinks</h3>
+            <div>
+                <div class="weekly-top-item">
+                    <p>ADD MOST POPULAR DRINK FOR TIME HERE</p>
+                    <p>ADD DESCRIPTION FOR IMAGE ABOVE</p>
+                </div>
+                <div class="weekly-top-item">
+                    <p>ADD MOST POPULAR DRINK FOR TIME HERE</p>
+                    <p>ADD DESCRIPTION FOR IMAGE ABOVE</p>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="section-title">Desserts</h2>
+        <div class="menu-section">
+            <div class="menu-item">
+                <img src="path/to/croissants.jpg" alt="Croissants">
+                <p>CROISSANTS</p>
+            </div>
+            <div class="menu-item">
+                <img src="path/to/muffins.jpg" alt="Muffins">
+                <p>MUFFINS</p>
+            </div>
+            <div class="menu-item">
+                <img src="path/to/another_croissants.jpg" alt="Another Croissants">
+                <p>CROISSANTS</p>
+            </div>
+            <div class="menu-item">
+                <img src="path/to/milkshakes.jpg" alt="Milkshakes">
+                <p>MILKSHAKES</p>
+            </div>
+        </div>
+
+        <div class="weekly-top">
+            <h3>Weekly Top Desserts</h3>
+            <div>
+                <div class="weekly-top-item">
+                    <p>ADD MOST POPULAR DESSERT FOR TIME HERE</p>
+                    <p>ADD DESCRIPTION FOR IMAGE ABOVE</p>
+                </div>
+                <div class="weekly-top-item">
+                    <p>ADD MOST POPULAR DESSERT FOR TIME HERE</p>
+                    <p>ADD DESCRIPTION FOR IMAGE ABOVE</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Menu Section -->
 </div>
 {% endblock %}
 
-      
-
-<div class ="footer">
+<div class="footer">
     <footer>
         <h4>Contact Us</h4>
-    <hr>
-    <!-- Only user email address added -->
-    <label>Email: Bean&BrewContant@gmail.com </label>
- 
-    <a href="mailto:Bean&BrewContant@gmail.com">
-        
-    </a><br>
-  
+        <hr>
+        <!-- Only user email address added -->
+        <label>Email: Bean&BrewContact@gmail.com</label>
+        <a href="mailto:Bean&BrewContact@gmail.com"></a><br>
+    </footer>
 </div>
-
-    
-    
-    
-
-
-    
-    
-    
-</body>
-</html>
