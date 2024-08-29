@@ -2,7 +2,7 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-@app.route('/Home')
+@app.route('/')
 def index():
     return render_template('index.html')
 
@@ -19,5 +19,4 @@ def ordering():
     return render_template('Ordering.html')
 
 if __name__ == '__main__':
-    app.run()
     app.run(debug=True)
