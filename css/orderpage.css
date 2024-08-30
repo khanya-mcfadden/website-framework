@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f4eb;
+    background-color: #e9d8b5;
     margin: 0;
     padding: 0;
 }
@@ -35,6 +35,7 @@ h1, h2, h3, p {
     width: 200px;
     margin: 20px;
     text-align: center;
+  
 }
 
 .menu-item img {
