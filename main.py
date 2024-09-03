@@ -17,6 +17,8 @@ def Booking():
 @app.route('/ordering')
 def ordering():
     return render_template('Ordering.html')
-
+@app.route('/testing')
+def testing(): 
+    return render_template('ordering.html')
 if __name__ == '__main__':
     app.run(debug=True)
