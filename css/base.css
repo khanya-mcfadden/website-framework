@@ -104,11 +104,12 @@ h1, h2, h3, p {
     height: 1px;
     background-color: white;
 }
-
-.footer label, .footer a {
-    color: white;
-    text-decoration: none;
-    display: block;
-    margin-top: 10px;
-    font-size: 16px;
+.footer {
+    position: fixed;
+    height: 50px;
+    background-color: red;
+    bottom: 1000px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
 }

@@ -5,6 +5,9 @@
 <head>
     <meta charset="UTF-8">
     <title>{% block title %}Page Title{% endblock %}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'orderpage.css' %}">
 </head>
 <body>
     <nav class="topnav">
@@ -14,17 +17,14 @@
         <a href="/contact">About us</a>
     </nav>
     
-    <div class ="footer">
+    <div class="footer">
         <footer>
             <h4>Contact Us</h4>
-        <hr>
-        <!-- Only user email address added -->
-        <label>Email: Bean&BrewContant@gmail.com </label>
-     
-        <a href="mailto:Bean&BrewContant@gmail.com">
-            
-        </a><br>
-      
+            <hr>
+            <!-- Only user email address added -->
+            <label>Email: Bean&BrewContant@gmail.com </label>
+            <a href="mailto:Bean&BrewContant@gmail.com"></a><br>
+        </footer>
     </div>
     
     {% block content %}
