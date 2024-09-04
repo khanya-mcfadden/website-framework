@@ -1,5 +1,4 @@
-body {
-background-color: red;
+*{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px;
 }
-
-h1 { color: blue; }
