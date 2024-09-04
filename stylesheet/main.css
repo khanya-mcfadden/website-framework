@@ -1,17 +1,19 @@
 form {
     font-family: Arial, sans-serif;
     margin: 50px;
-    padding: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
     box-sizing: border-box;
-    background: #fafafa;
+    background: #c7a4a4;
     min-height: 100vh;
-    
+
 }
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #c07553cb;
+    background: #000000cb;
     color: white;
     padding: 10px 20px;
 }
