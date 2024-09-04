@@ -1,5 +1,10 @@
 * {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, sans-serif;
     margin: 50px;
     padding: 50px;
+    box-sizing: border-box;
+}
+body {
+    background: #703838;
+    min-height: 100vh;
 }
