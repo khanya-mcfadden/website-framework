@@ -1,32 +1,35 @@
-<!DOCTYPE html>
+<!-- templates base -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Page Title</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>coffee shop home page</title>
 </head>
-
-{% extends "Base.html" %}
-
-{% block title %}Home Page{% endblock %}
-
-{% block content %}
-<div>
-    <h1>Welcome to the About us Page</h1>
-    <p>This is the content of the about us page.</p>
-</div>
-{% endblock %}
-
-  
-
-
+<body>
+    <nav class="topnav">
+        <a class="active" href="/">homepage</a>
+        <a href="/ordering">ordering a coffee</a>
+        <a href="/Booking">booking a seat</a>
+        <a href="/contact">About us</a>
+        <a href="/login">Login</a>
+        <a href="/register">Register</a>
+        <a href="/profile">Profile</a>
+        <a href="/testing">Testing</a>
+    </nav>
     
+    <div class="footer">
+        <footer>
+            <h4>Contact Us</h4>
+            <hr>
+            <!-- Only user email address added -->
+            <label>Email: Bean&BrewContant@gmail.com </label>
+            <a href="mailto:Bean&BrewContant@gmail.com"></a><br>
+        </footer>
+    </div>
     
 
-
-    
-    
-    
 </body>
 </html>
