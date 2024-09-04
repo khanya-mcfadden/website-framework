@@ -1,19 +1,41 @@
 form {
     font-family: Arial, sans-serif;
-    margin: 50px;
-    padding-top: 50px;
-    padding-left: 50px;
+    margin: 0;
+    padding: 50px;
     box-sizing: border-box;
-    background: #c7a4a4;
-    min-height: 100vh;
+    min-height: 100px;
+    max-width: 100%;
+}
 
+body {
+    min-height: 100vh;
+    background-image: url("/images/coffe background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
 }
 
 nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #000000cb;
+    background: #7A4B0E;
+    color: white;
+    padding: 10px 20px;
+    color: #b47e00;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #da9f5ccb;
     color: white;
     padding: 10px 20px;
 }
