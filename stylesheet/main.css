@@ -1,10 +1,17 @@
-* {
+form {
     font-family: Arial, sans-serif;
     margin: 50px;
     padding: 50px;
     box-sizing: border-box;
-}
-body {
-    background: #703838;
+    background: #fafafa;
     min-height: 100vh;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #c07553cb;
+    color: white;
+    padding: 10px 20px;
 }
