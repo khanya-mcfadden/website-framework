@@ -21,19 +21,18 @@
         <a style="float:right; color: white;" href="/login">Login</a>
     </nav>
     <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-        <form>
-            <h1 >Login</h1>
-            <div class="textbox">
-                <input type="text" name="username" placeholder="Username" required>
-            </div>
-            <div>
-                <input type="password" name="password" placeholder="Password" required>
-            </div>
-            <input type="submit" value="login">
-            <div>
-                <br>
-                <a href="/register" style="color: #b47e00; text-decoration: none;">dont have an account?<br> Register</a>
-            </div>
+        <h1>Add New User</h1>
+        <form method="POST" action="/add_user">
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username" required><br><br>
+    
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+    
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+    
+            <input type="submit" value="Add User">
         </form>
     </div>
 
