@@ -1,5 +1,8 @@
 from flask import Flask, render_template
-
+import sqlite3
+connection = sqlite3.connect("users.db", check_same_thread=False)
+cursor = connection.cursor()
+query = "CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, username TEXT, password TEXT)"
 app = Flask(__name__)
 
 

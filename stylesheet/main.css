@@ -20,7 +20,7 @@ h1{
     text-align: center;
     margin-bottom: 45px;
     color: #ffffff;
-    font-size: 26px;
+    font-size: 40px;
     margin-bottom: 20px;
 }
 
@@ -42,6 +42,9 @@ h1{
     background: none;
     border: none;
     outline: none;
+    width: 100%;
+    color: #ffffff;
+    font-size: 30px;
 }
 body {
     min-height: 100vh;
@@ -98,4 +101,24 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.loginbtn{
+    background: none;
+    color: #ffffff;
+    font-size: 20px;
+    border: 1px solid #ffffff;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+.loginbtn:hover{
+    background: #ffffff;
+    color: #7A4B0E;
+}
+.registerPromt{
+    text-align: center;
+    margin-bottom: 45px;
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 20px;
 }
