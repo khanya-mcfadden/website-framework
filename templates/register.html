@@ -1,52 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>Page Title</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/stylesheet/main.css">
+    <title>Register</title>
 </head>
-
 <body>
-    <nav class="topnav">
-        <a class="active" href="/" style="color: white;">homepage</a>
-        <a href="/ordering" style="color: white;">ordering a coffee</a>
-        <a href="/Booking" style="color: white;">booking a seat</a>
-        <a href="/contact" style="color: white;">About us</a>
+    <h1>Register New User</h1>
+    <form method="POST" action="/register">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" required><br><br>
 
-        <a href="/register" style="color: white;">Register</a>
-        <a href="/profile" style="color: white;">Profile</a>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
 
-        <a style="float:right; color: white;" href="/login">Login</a>
-    </nav>
-    <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-        <h1>Add New User</h1>
-        <form method="POST" action="/add_user">
-            <label for="username">Username:</label><br>
-            <input type="text" id="username" name="username" required><br><br>
-    
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br><br>
-    
-            <label for="password">Password:</label><br>
-            <input type="password" id="password" name="password" required><br><br>
-    
-            <input type="submit" value="Add User">
-        </form>
-    </div>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
 
-    
-        <div class="footer">
-            <footer>
-                <h4>Contact Us</h4>
-                <hr>
-                
-                <label>Email: Bean&BrewContant@gmail.com </label>
-                <a href="mailto:Bean&BrewContant@gmail.com"></a><br>
-            </footer>
-        </div>
-
+        <input type="submit" value="Register">
+    </form>
 </body>
-
 </html>
