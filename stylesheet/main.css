@@ -140,3 +140,20 @@ table {
     border: 1px solid #b47e00;
 
 }
+.welcome{
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 100px; 
+    background-color: #7A4B0E;
+    box-sizing: border-box;
+    min-height: 100px;
+    max-width: 100%;
+    text-align: left;
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+    border: 1px solid #b47e00;
+   
+}

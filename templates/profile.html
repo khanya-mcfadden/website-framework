@@ -1,2 +1,38 @@
 <!DOCTYPE html>
-this is the profile page
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Profile Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheet/profile.css">
+</head>
+
+<body>
+    <nav class="topnav">
+        <a class="active" href="/" style="color: black;">homepage</a>
+        <a href="/Orderingpage" style="color: black;">ordering a coffee</a>
+        <a href="/BookingPage" style="color: black;">booking a seat</a>
+        <a href="/register" style="color: black;">Register</a>
+        <a href="/profile" style="color: black;">Profile</a>
+
+        <a style="float:right; color: black;" href="/login">Login</a>
+    </nav>
+
+    <h1>Welcome, {{ username }}!</h1>
+
+
+
+    <div class="footer">
+        <footer>
+            <h4>Contact Us</h4>
+            <hr>
+            <!-- Only user email address added -->
+            <label>Email: Bean&BrewContant@gmail.com </label>
+            <a href="mailto:Bean&BrewContant@gmail.com"></a><br>
+        </footer>
+    </div>
+</body>
+
+</html>
