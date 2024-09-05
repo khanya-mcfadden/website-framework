@@ -23,6 +23,26 @@ h1{
     font-size: 26px;
     margin-bottom: 20px;
 }
+
+.textbox{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 30px 0;
+    border-bottom: 1px solid #b47e00;
+}
+.textboxdiv{
+    border-bottom: 2px solid #ffffff;
+    position: relative;
+    margin: 30px 0;
+}
+.textboxdiv input{
+    background: none;
+    border: none;
+    outline: none;
+}
 body {
     min-height: 100vh;
     height:30px;
