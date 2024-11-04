@@ -1,0 +1,41 @@
+login and session functanlity 
+[ ]create seperated session recognision
+[ ]create userdata base and page to controle it 
+[ ]create basic sign up page
+    [ ]create login page
+        [ ]show unique user session upon login
+        [ ]add in admin preliges for  certain pages 
+
+purchase and api functinality 
+[ ]create basic purchasing page 
+    create a database for puchases 
+    create a list of products that are for sale 
+[ ]find purchasing api e.g stripe 
+    [ ]learn how to intergate api into website 
+
+bookign and profile functianlity 
+[ ]create booking page 
+    [ ]create courses database 
+    [ ]link booking page to courses and user databases 
+    [ ]impliment ability to book course 
+[ ]create profile page
+    [ ]create user database 
+    [ ]link users database to others 
+    [ ]add deleting corses fuctnality 
+    [ ]add deleting profile fuctnality for users 
+
+
+
+
+testing
+[ ]test if purchase handerling api functions by making purchase on page 
+[ ]test navbar funcnality 
+[ ]test css loading correctly 
+[ ]test user managemnt page by deleting user account on admin
+[ ]test if admin and user pages are seperated 
+[ ]test sescurity messures 
+[ ]test booking data input funcnality 
+[ ]test booking removle  funcnality 
+[ ]test profile removle  funcnality 
+
+
